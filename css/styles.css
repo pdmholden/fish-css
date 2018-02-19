@@ -65,6 +65,13 @@ form {
 }
 
 table {
+  border-collapse: collapse;
+}
+
+table, thead, td {
   border: 1px solid blue;
 }
 
+td {
+  padding: 5px;
+}
