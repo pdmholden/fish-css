@@ -1,3 +1,24 @@
+/* text */
+
+body {
+  font-family: arial, sans-serif;
+}
+
+h2 {
+  font-size: large;
+  margin-top: 0px;
+}
+
+label {
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header & footer */
+
 div.hang-left {
   list-style-type: none;
 }
@@ -16,9 +37,11 @@ div li {
   display: inline;
 }
 
+/* content */
+
 div.page-help {
   position: absolute;
-  right: 20px;
+  right: 5px;
   width: 65%;
   text-align: left;
   border: 1px solid green;
@@ -29,3 +52,12 @@ div.page-help-title {
   border-bottom: 1px solid green;
   margin-bottom: 10px;
 }
+
+form {
+  width: 30%;
+}
+
+table {
+  border: 1px solid blue;
+}
+
