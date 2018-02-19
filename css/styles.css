@@ -1,20 +1,14 @@
 div.hang-left {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 div.hang-middle {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   text-align: center;
 }
 
 div.hang-right {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   text-align: right;
 }
 
@@ -22,3 +16,16 @@ div li {
   display: inline;
 }
 
+div.page-help {
+  position: absolute;
+  right: 20px;
+  width: 65%;
+  text-align: left;
+  border: 1px solid green;
+  padding: 10px;
+}
+
+div.page-help-title {
+  border-bottom: 1px solid green;
+  margin-bottom: 10px;
+}
