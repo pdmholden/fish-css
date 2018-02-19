@@ -39,6 +39,11 @@ div li {
 
 /* content */
 
+section {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
 div.page-help {
   position: absolute;
   right: 5px;
@@ -55,6 +60,8 @@ div.page-help-title {
 
 form {
   width: 30%;
+  border: 1px solid blue;
+  padding: 10px;
 }
 
 table {
