@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Window Dressing - Forms</title>
+  <link href="css/styles.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<nav class="header">
+  <ul class="nav-left">
+    <li><a href="#">Home</a></li>
+    <li><a href="#" class="nav-current">Things</a></li>
+    <li><a href="#">Stuff</a></li>
+  </ul>
+  <ul class="nav-right">
+    <li><a href="#">John Smith</a></li>
+  </ul>
+</nav>
+
+<section class="content">
+  <h2>Add Thing</h2>
+
+  <div class="page-help">
+    <div class="page-help-title">Additional information about this page...</div>
+    Cras laoreet imperdiet tellus, a viverra augue ullamcorper ut. Sed varius vel nisl nec luctus. Nulla imperdiet non arcu id posuere. Integer quis urna tortor. Integer nisl lectus, imperdiet quis vehicula vitae, porta a mi. Nam sit amet porttitor orci, faucibus vulputate lectus. Morbi vulputate at purus id pharetra. Nam in condimentum urna. Praesent et eros sed lacus sollicitudin convallis vel quis dui. Ut adipiscing risus lacus, id rhoncus nisl porttitor id.
+  </div>
+
+  <form action="post">
+    <label for="name">Name</label><br />
+    <input id="name" type="text"><br />
+    <label for="thing-type">Category</label><br />
+    <select id="thing-type">
+      <option value="">Select catgory...</option>
+      <option value="1">Round</option>
+      <option value="2">Rectangular</option>
+      <option value="3">Obtuse</option>
+    </select><br />
+    <div class="table">
+      <label>Assign Sub-things</label>
+      <table>
+        <thead>
+          <tr>
+           <td>&nbsp;</td>
+            <td>Name</td>
+            <td>Current Price</td>
+            <td>Current Stock</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type="checkbox"></td>
+            <td>Widget 1</td>
+            <td>34.19</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox"></td>
+            <td>Widget 2</td>
+            <td>19.82</td>
+            <td>1028</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox"></td>
+            <td>Widget 3</td>
+            <td>76.11</td>
+            <td>826</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox"></td>
+            <td>Widget 4</td>
+            <td>110.45</td>
+            <td>792</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox"></td>
+            <td>Widget 5</td>
+            <td>92.37</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox"></td>
+            <td>Widget 6</td>
+            <td>36.88</td>
+            <td>261</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <label>Status</label>
+    <input id="status_true" value="true" type="radio"> Active
+    <input id="status_false" value="false" type="radio"> Inactive<br />
+    <label for="comments">Comments</label><br />
+    <textarea id="comments"></textarea>
+    <div class="form-buttons">
+      <button type="submit">Submit</button>
+      <a href="#">Cancel</a>
+    </div>
+  </form>
+</section>
+
+<footer>
+  <nav class="footer">
+    <div class="links-left">
+      <li><a href="#">Home</a></li>
+      <li><a href="#" class="nav-current">Things</a></li>
+      <li><a href="#">Stuff</a></li>
+    </div>
+    <div class="links-middle">
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+    </div>
+    <div class="links-right">
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+    </div>
+  </nav>
+  <div class="outro">
+    <div class="hang-left">
+      &copy; Copyright 2014 IQMI
+    </div>
+    <div class="hang-right">
+      <ul>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
