@@ -1,0 +1,41 @@
+ul.nav-left {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.nav-left li {
+  display: inline;
+}
+
+ul.nav-right {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+div.links-left {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+div.links-middle {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+div.links-right {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+div.links li {
+  display: inline;
+}
